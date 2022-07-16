@@ -4,7 +4,7 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *MikAzu MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
 
@@ -401,9 +401,6 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 ║│➸.zodiac *2002 02 25*
 *╰───❉*
 
-*║╭──❉ 〔cristian〕*
-*╰───❉*
-
 *║╭──❉ 〔Fun〕*
 ║│➸.asupan
 ║│➸.coin
@@ -544,8 +541,8 @@ let str = `♡   ❍ㅤ  ⎙ㅤ ⌲
 *╰───❉*
 
 
-  ⬣━〔Powered By Rozi〕━⬣
-©️ zifabotz`
+  ⬣━〔Powered By Asyraf〕━⬣
+©️ Asyraf`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -557,9 +554,9 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
       "product": {
         "productImage": image,
         "productId": "4938174216214248",
-        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄 𝚉𝙸𝙵𝙰𝙱𝙾𝚃𝚉",
+        "title": "𝚃𝙰𝙼𝙿𝙸𝙻𝙰𝙽 𝙼𝙴𝙽𝚄",
         "description": '\n' + watermark + '\n' + str,
-        "retailerId": "Thanks For zifabotz !",
+        "retailerId": "Thanks For Asyraf 6Youu!",
         "url": "▌│█║▌║▌║║▌║▌║█│▌",
         "currencyCode": "IDR",
         "priceAmount1000": "99999999999999",
