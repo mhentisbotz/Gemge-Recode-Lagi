@@ -4,15 +4,15 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
 let str = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : ROZI
-*🎨 Umur* : 15
+*💌 Nama* : ASYRAF
+*🎨 Umur* : 17
 *📈 Status* : Busy
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : zalfapontianak
+*📷 instagran* : @asyrafsixyouu
 *🇫  Facebook* : -
-*🏮 Chanel Youtube* : -
-  ⬣━〔Powered By Rozi〕━⬣
-©️ zifabotz`
+*🏮 Chanel Youtube* : MikAzu YT
+  ⬣━〔Powered By Asyraf〕━⬣
+©️ Asyraf 6Youu`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
