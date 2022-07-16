@@ -34,7 +34,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━〔MikAzu Md By Asyraf━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -225,11 +225,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `
 ♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_ZIFABOTZ_* ]─✧
+╭─[ *_MIKAZU MD_* ]─✧
 ╰─────···
 📮 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚖𝚎𝚗𝚞 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*©️zifabotz*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
+⬣━〔MIKAZU MD By ASYRAF━⬣
+▌│█║▌║▌║║▌║▌║█│▌ `.trim(),                        "footerText": "*Di Sponsori Oleh : xxx.yandex.com*",                        "buttonText": "««TAMPILAN MENU««",                        "listType": "SINGLE_SELECT",                        "sections": [
                             {
                                 "rows": [{
                                     "title":  "|📥| ❯╾Donasi╼-",
@@ -245,15 +245,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|💬| ❯╾Store Menu╼-",
-                                    "description": "store di zifabotz",
+                                    "description": "store di mikazu bot",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|📺| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot zifa",
+                                    "description": "bergabung bersama bot mikazu md",
                                     "rowId": ".jadibot"
                                 }, {
   "title":  "|👥| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot zifa",
+                                    "description": "bergabung di grub bersama bot mikazu",
                                     "rowId": ".gcbot"
                                 }, {
   "title":  "|📒| ❯╾biodata owner╼-",
@@ -396,7 +396,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".waifu"
                                 }, { 
 "title": "⋮☰|🅿️|┅MENU———๑「 31 」",
-                                    "description": "profile anda di zifabotz",
+                                    "description": "profile anda di mikazu",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "⋮☰|👩‍⚖️|┅MENU———๑「 32 」",
@@ -406,15 +406,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner MIKAZU MD",
+                                    "description": "pemilik MIKAZU MD",
                                     "rowId": ".owner2"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules Mikazu Bot",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules2"
                                 }, {
@@ -511,7 +511,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3ButtonImg(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '▁ ▂ ▄ ▅ ▆ ▇ █PEMILIK BOT', `.owner2`, '🐻TUTORIAL BUAT BOT🐻', `.tutorial`, `📁VERIFY📁`, `.daftar`, m)
+    await conn.send3ButtonImg(m.chat, await (await fetch(thumbfoto)).buffer(), text.trim(), watermark, '😎OQNER GANTENG🗿', `.owner`, '🤖SEWA MIKAZU MD👾', `.sewabot`, `📁VERIFY📁`, `.daftar`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
