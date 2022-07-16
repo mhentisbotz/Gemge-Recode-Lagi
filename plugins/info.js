@@ -42,12 +42,12 @@ let handler  = async (m, { conn, usedPrefix }) => {
   let uptime = clockString(_uptime) 
   let totalreg = Object.keys(global.db.data.users).length
   let old = Math.round(performance.now())
-  await m.reply('*[ 👩‍💻 ] zifabotz sedang memproses*')
+  await m.reply('*[ 👩‍💻 ] Mikazu Md sedang memproses*')
   let neww = Math.round(performance.now())
   let str = `
                *ℒ⃝👾 B O T  S T A T I S T I C*
                
-👩🏻‍💻 *Owner:* wa.me/6287773973818
+👩🏻‍💻 *Owner:* wa.me/6281946945315
 🧪 *Mode:* ${global.opts['self'] ? 'Private' : 'Publik'}
 📊 *Versi:* ${package.version}
 💻 *Platform:* Unbuntu Linux
@@ -56,7 +56,7 @@ let handler  = async (m, { conn, usedPrefix }) => {
 🧿 *Server:* ${os.hostname()}
 🔎 *Browser:* ${conn.browserDescription[1]}
 *🏢 Hostname:* ${conn.browserDescription[0]}
-📢 *Report:* wa.me/6287773973818
+📢 *Report:* wa.me/6281946945315
 ⭕ *Prefix:* (# / ! .)
 🍃 *Speed:* ${neww - old} *ms*
 👥 *Total user:* ${totalreg} *user*
@@ -76,15 +76,15 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 *ℒ⃝💻C O N N E C T  W I T H  M E*
 
-♉ *Github:* https://github.com/Botynyakamu
-♊ *Insragram:* https://instagram.com/zalfapontianak
-♏ *Whatsapp:* wa.me/6287773973818
+♉ *Youtube:* https://bit.ly/3c0WJz9
+♊ *Insragram:* https://instagram.com/asyrafsixyouu
+♏ *Whatsapp:* wa.me/6281946945315
 
 
 
 
 `.trim()
-conn.send2Button(m.chat, str, `©️zifabotz`, '🏦GROUP BOT🏦', '.gcbot', 'Owner', '.owner', m)
+conn.send2Button(m.chat, str, `© MikAzu YT`, 'GROUP MIKAZU', '.gcbot', 'OWNER MIKAZU', '.owner', m)
 
 }
 handler.help = ['info']
