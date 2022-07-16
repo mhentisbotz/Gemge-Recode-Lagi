@@ -3,8 +3,8 @@ let handler = async (m, { conn }) => conn.sendButtonImg(m.chat, await (await fet
 BIG THANKS TO
 ╭═══════════════════════
 ║╭──❉ 〔 TERIMAKASIH 〕 ❉──────
-║│➸ *OWNER* : *_ROZI_*
-║│➸ *BOT*: *_ZIFABOTZ_*
+║│➸ *OWNER* : *_ASYRAF_*
+║│➸ *BOT*: *_MIKAZU MD_*
 ║│➸ *_LAYANAN API_*
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
@@ -12,7 +12,7 @@ BIG THANKS TO
 ║╭──❉  •BASE NURUTOMO
 ║╰──❉ •SC ORI RTXYZ
 ═════════════
-`.trim(), watermark, '🧸OWNER🧸', '.owner2')
+`.trim(), watermark, 'OWNER MIKAZU', '.owner')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']
 handler.command = /^(tqto|thanks|thanksto|bigthanks)$/i
