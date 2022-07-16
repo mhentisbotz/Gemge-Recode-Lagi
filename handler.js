@@ -405,8 +405,8 @@ module.exports = {
             for (let user of participants) {
               let kai = await(await fetch('https://telegra.ph/file/7ae75cea769df77cde511.jpg')).buffer()
               let poi = await(await fetch('https://telegra.ph/file/7ae75cea769df77cde511.jpg')).buffer()
-              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
-                  (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
+              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
+                  (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace(/@user/g, '@' + user.split`@`[0])
                 let wel = `━━━━━━ Welcome Beban ━━━━━━`
                 let lea = `━━━━━━ Good Bye Beban ━━━━━━`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
@@ -414,7 +414,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: '𝙕𝙞𝙛𝙖𝘽𝙤𝙩𝙯',
+                  body: 'Mikazu Md',
                   thumbnail: poi
                 }
               }}) 
