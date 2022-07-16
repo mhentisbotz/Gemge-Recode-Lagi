@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
     conn.reply(m.chat, `_Send a broadcast message to ${groups.length} group_\nestimation complete ${groups.length * 1.5} seconds`, m)
     for (let id of groups) {
         await delay(1500)
-        await conn.send3ButtonImg(id, logo,'*—「 Broadcast Group 」—*\n' + text, wm, '⋮☰ Menu', '.menu', 'Sewa', '.sewa', 'Taati peraturan bot', '.rules', m)
+        await conn.send3ButtonImg(id, logo,'*—「 Broadcast Group 」—*\n' + text, wm, 'MENU MIKAZU', '.menu', 'SEWA BOT MIKAZU', '.sewa', 'OWNER GANZ', '.owner', m)
     }
     m.reply('_*Broadcast Finished*_')
 }
